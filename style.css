@@ -1,0 +1,200 @@
+body{
+    font-family: 'Zilla Slab', serif;
+}
+.menu{
+    width: 1440px;
+}
+ul{
+	float: right;
+	list-style-type: none;
+    margin-top: 30px;
+   
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+	color:black;
+	border: 1px solid transparent;
+	padding: 5px 20px;
+	transition: 0.5s ease;
+}
+ul li a:hover{
+	padding: 5px 20px;
+	background-color: lightskyblue;
+	color: white;
+}
+.top-banner{
+    width: 1440px;
+    float: left;
+}
+.half-width{
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin: 4%;
+    margin-bottom: 10%;
+}
+
+.half-width img{
+    width: 80%;
+}
+#welcome{
+    width: 40%;
+    height: 50%;
+    padding: 2%;
+    box-shadow: 10px 10px 30px gray;
+    background-image: url("images/image 13.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.welcome-name{
+    font-size: 50px;
+    color: coral;
+    font-family: 'Lobster', cursive;
+}
+.my-name{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(189, 30, 210);
+}
+.name{
+    font-weight: bolder;
+    color: lightseagreen;
+    font-family: 'Zilla Slab', serif;
+
+}
+.button{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Zilla Slab', serif;
+    background-color: lime;
+    border-radius: 0px 10px 0px 10px;
+}
+.button a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.middle-banner{
+    width: 1440px;
+    float: left;
+}
+.half-width-dream{
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin: 4%;
+    margin-bottom: 10%;
+    padding: 2%;
+    box-shadow: 10px 10px 30px gray;
+    background-image: url("images/dream-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.half-width-dream img{
+    width: 100%;
+}
+.download{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Zilla Slab', serif;
+    background-color:salmon;
+    border-radius: 10px 0px 10px 0px;
+}
+.download a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.half-width-dream-img{
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin: 4%;
+    margin-bottom: 10%;
+}
+.half-width-dream-img img{
+    width: 80%;
+}
+.last-banner{
+    float: left;
+    position: relative;
+    width: 1440px;
+    height: 814px;
+    margin: 4%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    background-color: rgba(248, 249, 252, 1);
+}
+#project{
+    font-size: 50px;
+    margin-top: 5%;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.latest{
+    color: tomato;
+}
+.latest-work{
+    float: left;
+    position: relative;
+    width: 40%;
+    height: 500px;
+    margin: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
+}
+.latest-work-image{
+    width: 100%;
+    height: 50%;
+}
+.latest-work h3{
+    float: left;
+    margin-left: 5%;
+    font-size: xx-large;
+    
+}
+.latest-work p{
+    float: left;
+    margin-left: 5%;
+    font-size: larger;
+}
+.group{
+    float: left;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    border-radius: 30px;
+    width: 906px;
+    height: 225px;
+    background-image: url("images/Group_33094_1.png");
+    background-position: bottom;
+}
+.inquiry{
+    float: left;
+    margin:  10%;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    text-align: justify;
+}
+.chat{
+    float: left;
+    margin: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Zilla Slab', serif;
+    background-color:salmon;
+    border-radius: 5px;
+}
+.chat a{
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
